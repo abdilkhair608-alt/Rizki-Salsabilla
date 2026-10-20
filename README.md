@@ -41,6 +41,6 @@ npm run check
 ```
 
 Fitur: menu mobile dengan blur, hero, galeri, hitung mundur, RSVP berdasarkan
-ID browser, hati berdetak setelah konfirmasi, dan tirai pembuka melengkung.
+ID browser, dan hati berdetak setelah konfirmasi.
 
 # Rizki-Salsabilla
