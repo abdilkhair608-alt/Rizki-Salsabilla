@@ -1,0 +1,12 @@
+node_modules/
+undangan-rizki-salsabilla.zip
+dist/
+.vite/
+.npm-cache/
+*.local
+.qa/
+.data/
+.vercel/
+.env
+.env.*
+!.env.example

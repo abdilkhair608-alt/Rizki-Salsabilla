@@ -1,0 +1,37 @@
+import { createBlobRsvpStore } from './blob-rsvp-store.js';
+import { createRsvpHandler, sendJson } from './rsvp-api.js';
+
+export function createVercelRsvpHandler({ env = process.env, client } = {}) {
+  let handler;
+  return async (request, response) => {
+    try {
+      if (!handler) {
+        if (!env.BLOB_READ_WRITE_TOKEN && !(env.BLOB_STORE_ID && env.VERCEL_OIDC_TOKEN)) {
+          console.error('RSVP: hubungkan Private Blob store ke project Vercel.');
+          return sendJson(response, 503, {
+            error: 'Konfirmasi kehadiran belum tersedia. Silakan coba lagi nanti.',
+          });
+        }
+        const environment = env.VERCEL_ENV === 'production' ? 'production' : 'preview';
+        const store = createBlobRsvpStore({
+          prefix: env.RSVP_BLOB_PREFIX || `rizki-salsabilla/${environment}`,
+          token: env.BLOB_READ_WRITE_TOKEN,
+          storeId: env.BLOB_STORE_ID,
+          client,
+        });
+        handler = createRsvpHandler({
+          store,
+          allowedAttendance: ['attending'],
+        });
+      }
+      return await handler(request, response, () =>
+        sendJson(response, 404, { error: 'Endpoint tidak ditemukan.' }),
+      );
+    } catch (error) {
+      console.error('RSVP configuration error:', error.message);
+      return sendJson(response, 503, {
+        error: 'Konfirmasi kehadiran belum tersedia. Silakan coba lagi nanti.',
+      });
+    }
+  };
+}
