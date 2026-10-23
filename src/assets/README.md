@@ -7,7 +7,7 @@ dimaksudkan sebagai dokumentasi mempelai atau lokasi acara sebenarnya.
 
 ## wedding-garden.jpg
 
-Dipakai pada hero dan galeri. Prompt:
+Aset ilustrasi lama, saat ini tidak ditampilkan. Prompt:
 
 > Use case: photorealistic-natural. Create one landscape editorial wedding photograph, 1536x1024 composition, for the hero image of an elegant Indonesian wedding invitation website. A romantic outdoor garden wedding ceremony with a large sculptural arch of white and ivory roses, baby's breath and sage green foliage, warm ivory draping, wooden chairs, sun-dappled grass, lush tropical garden trees in the distance. Editorial fine art film photography with soft morning sun, subtle grain, muted warm ivory and olive palette, sophisticated natural textures. Arch centered slightly right. No people, no text, no lettering, no watermark. Full bleed real photograph, not a website mockup. Save the generated image for use as a local project asset.
 
@@ -34,6 +34,6 @@ Kedua foto berasal dari lampiran pengguna dan ditampilkan pada bagian mempelai.
 
 - `rizki-salsabilla-1.jpg`: foto duduk bersama, gambar utama galeri.
 - `rizki-salsabilla-2.jpg`: foto berpose ceria dengan kacamata hitam.
-- `rizki-salsabilla-3.jpg`: foto duduk bersandar bersama.
+- `rizki-salsabilla-3.jpg`: foto duduk bersandar bersama, juga dipakai sebagai foto utama hero dan sampul pembuka.
 
 Ketiga foto berukuran 1000 x 1500 piksel, berasal dari lampiran pengguna, dan dapat dibuka utuh di galeri.

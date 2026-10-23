@@ -1,4 +1,4 @@
-import garden from '../assets/wedding-garden.jpg';
+import couplePhoto from '../assets/rizki-salsabilla-3.jpg';
 import Icon from './Icon.jsx';
 import { reception, couple } from '../data/wedding.js';
 
@@ -7,11 +7,11 @@ export default function Hero() {
     <section id="home" className="hero-section">
       <img
         className="hero-background"
-        src={garden}
-        alt="Ilustrasi pelaminan taman dengan lengkungan mawar putih dan dedaunan hijau"
+        src={couplePhoto}
+        alt="Foto Rizki dan Salsabilla duduk bersandar bersama"
         fetchPriority="high"
-        width="1536"
-        height="1024"
+        width="1000"
+        height="1500"
       />
       <div className="hero-copy fade-in-section is-visible">
         <div className="eyebrow">

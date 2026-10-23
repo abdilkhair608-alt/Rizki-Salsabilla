@@ -1,4 +1,4 @@
-import garden from '../assets/wedding-garden.jpg';
+import couplePhoto from '../assets/rizki-salsabilla-3.jpg';
 import Icon from './Icon.jsx';
 import { reception, couple } from '../data/wedding.js';
 
@@ -22,10 +22,10 @@ export default function InvitationCover({ guestName, onOpen, preview = false }) 
         <p className="cover-eyebrow">THE WEDDING OF</p>
         <div className="cover-picture">
           <img
-            src={garden}
-            alt="Ilustrasi taman pernikahan dengan mawar putih"
-            width="1536"
-            height="1024"
+            src={couplePhoto}
+            alt="Foto Rizki dan Salsabilla duduk bersandar bersama"
+            width="1000"
+            height="1500"
             fetchPriority={preview ? 'auto' : 'high'}
           />
           <span className="cover-monogram" aria-hidden="true">
