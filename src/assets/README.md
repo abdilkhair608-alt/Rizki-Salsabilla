@@ -13,7 +13,7 @@ Dipakai pada hero dan galeri. Prompt:
 
 ## bridal-bouquet.jpg
 
-Dipakai sebagai ilustrasi pada galeri. Prompt:
+Aset ilustrasi lama, saat ini tidak ditampilkan. Prompt:
 
 > Use case: photorealistic-natural. Landscape 1536x1024 editorial wedding detail photography. A lush bridal bouquet of ivory roses, white ranunculus and airy baby's breath with sage eucalyptus stems and long ivory silk ribbons resting on a warm beige limestone garden ledge. Shallow depth of field, dreamy soft sun, subtle film grain, muted sage and ivory palette, high end fine art wedding magazine, no people, no words, no watermark, full bleed photograph.
 
@@ -29,3 +29,11 @@ Dipakai sebagai ilustrasi pada galeri. Prompt:
 - `salsabilla.png`: foto Salsabilla Rivalina, 1024 ? 1536 piksel.
 
 Kedua foto berasal dari lampiran pengguna dan ditampilkan pada bagian mempelai.
+
+## Foto galeri
+
+- `rizki-salsabilla-1.jpg`: foto duduk bersama, gambar utama galeri.
+- `rizki-salsabilla-2.jpg`: foto berpose ceria dengan kacamata hitam.
+- `rizki-salsabilla-3.jpg`: foto duduk bersandar bersama.
+
+Ketiga foto berukuran 1000 x 1500 piksel, berasal dari lampiran pengguna, dan dapat dibuka utuh di galeri.

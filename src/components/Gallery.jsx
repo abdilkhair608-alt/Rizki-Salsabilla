@@ -1,23 +1,30 @@
 import { useState } from 'react';
-import garden from '../assets/wedding-garden.jpg';
-import bouquet from '../assets/bridal-bouquet.jpg';
-import rings from '../assets/wedding-rings.jpg';
+import together from '../assets/rizki-salsabilla-1.jpg';
+import playful from '../assets/rizki-salsabilla-2.jpg';
+import forever from '../assets/rizki-salsabilla-3.jpg';
 import Icon from './Icon.jsx';
 import Lightbox from './Lightbox.jsx';
 
 const photos = [
   {
-    src: garden,
+    src: together,
     title: 'A beautiful beginning',
-    alt: 'Ilustrasi pelaminan taman dengan mawar ivory',
+    alt: 'Rizki dan Salsabilla duduk bersama saling membelakangi',
     className: 'gallery-wide',
+    position: '50% 55%',
   },
   {
-    src: bouquet,
+    src: playful,
     title: 'Love in every little detail',
-    alt: 'Ilustrasi buket mawar putih dan dedaunan sage',
+    alt: 'Rizki dan Salsabilla berpose ceria mengenakan kacamata hitam',
+    position: '50% 35%',
   },
-  { src: rings, title: 'A promise, forever', alt: 'Ilustrasi dua cincin pernikahan emas' },
+  {
+    src: forever,
+    title: 'A promise, forever',
+    alt: 'Rizki dan Salsabilla duduk bersandar bersama di studio',
+    position: '50% 40%',
+  },
 ];
 
 export default function Gallery() {
@@ -52,7 +59,14 @@ export default function Gallery() {
             onClick={(event) => openPhoto(event, photo)}
             aria-label={`Perbesar: ${photo.alt}`}
           >
-            <img src={photo.src} alt={photo.alt} loading="lazy" width="1536" height="1024" />
+            <img
+              src={photo.src}
+              alt={photo.alt}
+              loading="lazy"
+              width="1000"
+              height="1500"
+              style={{ objectPosition: photo.position }}
+            />
             <span className="gallery-overlay">
               <span>{photo.title}</span>
               <Icon name="expand" />
