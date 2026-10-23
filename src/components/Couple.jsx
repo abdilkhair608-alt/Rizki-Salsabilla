@@ -1,5 +1,5 @@
-import bouquet from '../assets/bridal-bouquet.jpg';
-import rings from '../assets/wedding-rings.jpg';
+import groomPhoto from '../assets/rizki.png';
+import bridePhoto from '../assets/salsabilla.png';
 import { couple } from '../data/wedding.js';
 
 export default function Couple() {
@@ -17,13 +17,13 @@ export default function Couple() {
       </div>
       <div className="couple-layout mx-auto max-w-5xl">
         <article className="couple-person fade-in-section">
-          <div className="portrait-frame">
+          <div className="portrait-frame portrait-frame-photo">
             <img
-              src={rings}
-              alt="Ilustrasi dua cincin emas dalam kotak beludru sage"
+              src={groomPhoto}
+              alt={`Foto ${couple.groom.name}, mempelai pria`}
               loading="lazy"
-              width="1536"
-              height="1024"
+              width="1161"
+              height="1355"
             />
             <span>{couple.groom.initial}</span>
           </div>
@@ -41,13 +41,13 @@ export default function Couple() {
           &
         </span>
         <article className="couple-person fade-in-section">
-          <div className="portrait-frame">
+          <div className="portrait-frame portrait-frame-photo">
             <img
-              src={bouquet}
-              alt="Ilustrasi buket pengantin mawar ivory dengan pita sutra"
+              src={bridePhoto}
+              alt={`Foto ${couple.bride.name}, mempelai wanita`}
               loading="lazy"
-              width="1536"
-              height="1024"
+              width="1024"
+              height="1536"
             />
             <span>{couple.bride.initial}</span>
           </div>

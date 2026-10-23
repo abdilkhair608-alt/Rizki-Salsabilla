@@ -661,6 +661,9 @@ h2 em {
   position: relative;
   margin: 0 auto;
 }
+.portrait-frame-photo {
+  aspect-ratio: 2 / 3;
+}
 .portrait-frame::before {
   content: '';
   position: absolute;

@@ -13,12 +13,19 @@ Dipakai pada hero dan galeri. Prompt:
 
 ## bridal-bouquet.jpg
 
-Dipakai sebagai ilustrasi pada bagian mempelai dan galeri. Prompt:
+Dipakai sebagai ilustrasi pada galeri. Prompt:
 
 > Use case: photorealistic-natural. Landscape 1536x1024 editorial wedding detail photography. A lush bridal bouquet of ivory roses, white ranunculus and airy baby's breath with sage eucalyptus stems and long ivory silk ribbons resting on a warm beige limestone garden ledge. Shallow depth of field, dreamy soft sun, subtle film grain, muted sage and ivory palette, high end fine art wedding magazine, no people, no words, no watermark, full bleed photograph.
 
 ## wedding-rings.jpg
 
-Dipakai sebagai ilustrasi pada bagian mempelai dan galeri. Prompt:
+Dipakai sebagai ilustrasi pada galeri. Prompt:
 
 > Use case: photorealistic-natural. Landscape 1536x1024 luxury fine art wedding detail photography. Two simple gold wedding bands nestled in an open small olive sage velvet ring box on warm ivory linen, delicate white roses and tiny baby's breath along one side, soft morning window light and organic shadows, tasteful editorial composition, realistic metal and fabric textures, muted champagne ivory olive palette, no people, no words, no watermark, full bleed photograph.
+
+## Foto mempelai
+
+- `rizki.png`: foto Rizki Budiman, 1161 ? 1355 piksel.
+- `salsabilla.png`: foto Salsabilla Rivalina, 1024 ? 1536 piksel.
+
+Kedua foto berasal dari lampiran pengguna dan ditampilkan pada bagian mempelai.

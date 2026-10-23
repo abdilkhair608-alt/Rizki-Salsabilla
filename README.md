@@ -8,7 +8,7 @@ dengan identitas, jadwal, dan penyimpanan RSVP khusus Rizki & Salsabilla.
 - Resepsi mengikuti undangan sebelumnya: Senin, 9 November 2026, pukul 10.00 WIB,
   Jl. N.J.Dt.Mangkuto Ameh No.21, Koto Selayan, Bukittinggi.
 - Semua nama mempelai dan orang tua disimpan di src/data/wedding.js.
-- Tetap menggunakan ilustrasi pernikahan, bukan foto pribadi mempelai.
+- Bagian mempelai memakai foto Rizki dan Salsabilla; hero dan galeri tetap memakai ilustrasi pernikahan.
 
 ## Menjalankan
 
